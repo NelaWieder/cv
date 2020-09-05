@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "utf-8">
+<meta name = "description" content = "Poznaj moje dane kontaktowe i skontaktuj się już dziś">
+<meta name = "author" content = "Nela Wieder">
+<meta http-equiv = "refresh" content = "30">
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt</title>
+</head>
+<body>
+<h1>Kontakt</h1>
+<p>
+Jeśli jesteś zainteresowany współpracą ze mną to zapraszam do kontaktu 😃
+</p>
+<hr>
+<h3>Dane kontaktowe</h3>
+<p>
+Numer telefonu: <a href="tel:787448828">787 448 828</a>
+<br>
+Mail: <a href="mailto:nela.wieder@gmail.com">nela.wieder@gmail.com</a>
+</p>
+<hr>
+<h3>Formularz kontaktowy</h3>
+<p>Chcesz dowiedzieś się więcej? Masz dodatkowe pytania?
+<br>Nie czekaj, napisz już teraz i dowiedz się więcej.</p>
+<form class="contactForm" action="mailto:nela.wieder@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" value="Imię">
+<br>
+<input type="text" name="companyName" value="Firma">
+<br>
+<label for="checkboxdiv">Jaka forma kontaktu jest preferowana?</label>
+<div class="checkboxForm">
+  <input type="checkbox" name="viaMail" value="Mail">
+  <label for="contactMail">Mailowo</label>
+</div>
+<div class="checkboxForm">
+  <input type="checkbox" name="viaTel" value="Tel">
+  <label for="contactTel">Telefonicznie</label>
+</div>
+<input type="email" name="email" value="Email">
+<br>
+<input type="tel" name="tel" value="Numer telefonu">
+<br>
+<textarea name="message" rows="8" cols="80"></textarea>
+<br>
+<input type="submit" name="submit" value="Wyślij wiadomość">
+</form>
+<body>
+</html>
