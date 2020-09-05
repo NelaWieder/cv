@@ -7,62 +7,7 @@
 <meta http-equiv = "refresh" content = "360">
 <meta name = "viewport" content="width=device-width, initial-scale=1.0">
 <title>Nela Wieder</title>
-
-
-<style media="screen">
-/*Ciemny tryb*/
-  body {
-      color: #d7e7ef;
-      background-color: rgb(44,45,50);
-      /* background: -webkit-linear-gradient(bottom, rgba(44,45,50) 0%, rgba(43,3,40) 100%); */
-    }
-
-
-  hr {
-    background-color: orange;
-    border-style: dotted;
-    width: 10px;
-    height: 10px;
-    border-style: none;
-    border-radius: 33% 10%;
-
-}
-
-table.hr {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5%;
-}
-
-.hrtd{
-  padding: 8px;
-}
-
-a {
-  color: orange;
-  text-decoration: none;
-}
-
-.btn-grad {
-  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
-  padding: 3%;
-  border: none;
-}
-.btn-grad:hover { background-position: right center; }
-
-/* Jasny styl
-<style media="screen">
-  body {
-    background-color: #d7e7ef;
-    color: rgb(44,45,50);
-  }
-*/
-
-</style>
-
-
-
-
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <table cellspacing="40">
@@ -206,6 +151,10 @@ a {
     <td class = "hrtd"><hr></td>
   </tr>
 </table>
-<button class="btn-grad" type="contactPage" name="contactPage">Chcę się skontaktować</button>
+
+<form action="form.html">
+    <input type="submit" value="Chcę się skontaktować" />
+</form>
+
 <body>
 </html>
