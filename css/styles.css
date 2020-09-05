@@ -1,0 +1,52 @@
+/*Ciemny tryb*/
+  body {
+      color: #d7e7ef;
+      background-color: rgb(44,45,50);
+      /* background: -webkit-linear-gradient(bottom, rgba(44,45,50) 0%, rgba(43,3,40) 100%); */
+    }
+
+
+  hr {
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    border-style: none;
+    border-radius: 33% 10%;
+
+}
+
+.hr {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+.hrtd{
+  padding: 8px;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+input[type=submit] {
+  /*background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);*/
+  background-color: orange;
+  border: none;
+  color: rgb(44,45,50);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 34%
+}
+/*.btn-grad:hover { background-position: right center; }*/
+
+/* Jasny styl
+<style media="screen">
+  body {
+    background-color: #d7e7ef;
+    color: rgb(44,45,50);
+  }
+*/
